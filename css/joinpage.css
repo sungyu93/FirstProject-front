@@ -72,16 +72,35 @@
 /*=====.header끝======*/
 
 .wrap {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
+    height: 100%;
 }
 /*====== .join_logo 시작 ======*/
+.join_inner {}
+
 .join_logo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+.join_logo .logo {
+    margin-top: 30px;
+    line-height: 100px;    
+}
+
+.join_logo .logo a {
+    font-family: 'RixInooAriDuriR';
+    color: #0d0d12;
+    font-weight:lighter;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.join_logo h2 {
+    margin-top: 30px;
 }
 .join_logo h2 a{
     font-weight: 700;
@@ -141,8 +160,9 @@
 }
     
 #file {
-        display: none;
+    display: none;
 }
+
 .join .img .text {
     color: #0000ee;
     font-weight: 700;
@@ -166,7 +186,7 @@
 .join_email input {
 width: 300px;
 height: 40px;
-border-radius: 10px;
+border-radius: 5px;
 padding: 6px 12px;
 border: 1px solid #bbb;
 outline: none;
@@ -235,7 +255,7 @@ outline: none;
 .join_name input{
 width: 170px;
 height: 40px;
-border-radius: 10px;
+border-radius: 5px;
 padding: 6px 12px;
 border: 1px solid #bbb;
 outline: none;
@@ -249,7 +269,7 @@ outline: none;
 .join_age select {
     width: 100px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 6px 12px;
     border: 1px solid #bbb;
 }
@@ -270,7 +290,7 @@ outline: none;
     width: 90px;
     height: 40px;
     padding: 6px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #bbb;
     outline: none;
 }
@@ -279,7 +299,7 @@ outline: none;
     width: 100px;
     height: 40px;
     padding: 6px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #bbb;
     outline: none;
 }
